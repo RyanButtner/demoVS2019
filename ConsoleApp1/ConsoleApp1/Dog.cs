@@ -19,7 +19,7 @@ namespace ConsoleApp1
         public void EatBreakfast()
         {
             var banana = new Banana();
-            Eat(banana, DateTime.Now);
+            _ = Eat(banana, DateTime.Now);
         }
     }
 }
